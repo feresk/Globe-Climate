@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/Globe-Climate/vite.svg" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" crossorigin src="/Globe-Climate/assets/index-2a4d1e8d.js"></script>
+    <link rel="stylesheet" href="/Globe-Climate/assets/index-aa142cab.css">
+  </head>
+  <body>
+    
+    <header class='header'>
+      <h1>Global Tempearture Since 1980</h1>
+      <i class="fa-solid fa-cloud-moon" id="night-mode"></i>
+      <i class="fa-solid fa-sun" id="day-mode"></i>
+    </header>
+    <div id="globeViz"></div>
+    <div class="interactive-container">
+      <div class="colormaps-container">
+        <input type="button" class="colormap" id="yellow-red" />
+        <input type="button" class="colormap" id="plasma" />
+        <input type="button" class="colormap" id="viridis" />
+        <input type="button" class="colormap" id="gold"/>
+        <div class='color-picker' id="custom-color"></div>
+      </div>
+      <div class="slider-container">
+        <input type="range" min="1980" max="2012" value="2000" class="slider" id="yearslider"/>
+        <p class="year"><output id="value"></output></p>
+      </div>
+      <span class="material-symbols-outlined">360</span>
+    </div>
+
+  </body>
+</html>
