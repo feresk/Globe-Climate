@@ -11,5 +11,5 @@ This project is split into 2 parts :
 Climate Data - https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data <br />
 Missing Countries Climate Data - https://climateknowledgeportal.worldbank.org/ <br />
 Kosovo Data - https://open-meteo.com <br />
-&nbsp;&nbsp; curl "https://archive-api.open-meteo.com/v1/era5?latitude=42.58&longitude=20.29&daily=temperature_2m_max,temperature_2m_min&forecast_days=1&start_date=1980-01-01&end_date=2013-01-01&timezone=auto" > kosovoDailyTemperature.json
+- curl "https://archive-api.open-meteo.com/v1/era5?latitude=42.58&longitude=20.29&daily=temperature_2m_max,temperature_2m_min&forecast_days=1&start_date=1980-01-01&end_date=2013-01-01&timezone=auto" > kosovoDailyTemperature.json <br />
 Country ISO-3166 Codes https://gist.github.com/tadast/8827699
