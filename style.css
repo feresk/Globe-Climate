@@ -140,6 +140,7 @@ h1 {
 #yellow-red {
   /* background: linear-gradient(135deg, #840404, #c41324 40%,#f95b2e, #c48404, #fbcc71); */
   background-color: #c41324;
+  width : 23px;
 }
 #plasma {
   /* background: linear-gradient(135deg, #f6d434, #f7973f 15%, #e4695e, #b22b8f, #7104ac ); */
