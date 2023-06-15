@@ -126,7 +126,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -9px;;
+  margin-left: -9px;
+
 }
 .colormap {
   margin: 0px 20px;
@@ -248,6 +249,32 @@ h1 {
   }
   .interactive-container {
     flex-direction: column;
-    width : 100%
+    width : 100%;
+  }
+  .colormaps-container > * {
+    margin-right: 8vw;
+    margin-left: 5vw;
+  }
+  .pickr .pcr-button {
+    padding-left: 0px;
+    margin-left: -30px;
+  }
+  #yellow-red{
+    margin-left: 1vw;
+  }
+}
+@media screen and (max-width:300px) {
+  .slider{
+    width: 80vw;
+    min-width: 80vw;
+  }
+}
+@media screen and (max-width:260px) {
+  .colormaps-container > * {
+    margin-right: 7vw;
+    margin-left: 3vw;
+  }
+  #yellow-red{
+    margin-left: 5vw;
   }
 }
